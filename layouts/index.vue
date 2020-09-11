@@ -1,10 +1,11 @@
 <template>
   <div>
     <v-content>
-     <Avatar/>
+    <Avatar/>
      <Playground/>
      
     </v-content>
+
   </div>
 </template>
 
