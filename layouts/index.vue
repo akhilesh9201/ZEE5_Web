@@ -1,8 +1,8 @@
 <template>
   <div>
     <v-content>
-    <Avatar/>
-     <Playground/>
+    
+  
      
     </v-content>
 

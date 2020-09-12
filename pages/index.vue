@@ -1,8 +1,9 @@
 <template>
   <div>
     <v-content>
-     <Avatar/>
-     <Playground/>
+     
+     Welcome to this website
+     <Breadcrumb/>
      
     </v-content>
   </div>

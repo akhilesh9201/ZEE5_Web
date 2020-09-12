@@ -3,10 +3,10 @@
   <v-app id="inspire">
     
     <!--Header -->
-    <v-app-bar color="red" dark fixed app>
+    <v-app-bar color="rgb(51, 0, 109)" dark fixed app>
       <v-toolbar-title>Application</v-toolbar-title>
        <!-- Component Example -->
-      <VuetifyLogo/>
+      <Zee5Logo/>
     </v-app-bar>
 
     <!-- Body -->
@@ -33,5 +33,6 @@ export default {}
 
    #inspire {
     background-color: white;
+    color: black;
   }
 </style>
