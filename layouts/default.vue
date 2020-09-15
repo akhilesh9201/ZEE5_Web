@@ -3,7 +3,7 @@
   <v-app id="inspire">
     
     <!--Header -->
-    <v-app-bar color="rgb(51, 0, 109)" dark fixed app>
+    <v-app-bar color="rgb(29, 0, 30)" dark fixed app>
       <v-toolbar-title>Application</v-toolbar-title>
        <!-- Component Example -->
       <Zee5Logo/>
@@ -15,7 +15,7 @@
     </v-content>
     
     <!-- Footer -->
-    <v-footer color="indigo" app>
+    <v-footer color="rgb(29, 0, 30)" app>
       <span class="white--text">&copy; {{ new Date().getFullYear() }}</span>
     </v-footer>
 
@@ -32,7 +32,7 @@ export default {}
   }
 
    #inspire {
-    background-color: white;
-    color: black;
+    background-color: rgb(49 ,19, 57);
+    color: rgb(255, 255, 255);
   }
 </style>

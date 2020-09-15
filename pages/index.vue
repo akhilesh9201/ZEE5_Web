@@ -1,10 +1,8 @@
 <template>
   <div>
     <v-content>
-     
-     Welcome to this website
      <Breadcrumb/>
-     
+     User Details
     </v-content>
   </div>
 </template>
