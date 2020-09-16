@@ -71,15 +71,17 @@
   export default {
     data: () => ({
       loading: false,
-      selection:0 ,
+      selection:2 ,
     }),
-
+    // selection command is selecting the option initally from the form
+      
     methods: {
       reserve () {
-        this.loading = true
+        this.loading = false
 
         setTimeout(() => (this.loading = false), 2000)
       },
+      // If the values are set to true then the loading bar acts like a buffer 
     },
   }
 </script>

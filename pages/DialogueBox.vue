@@ -4,6 +4,9 @@
       v-model="dialog"
       width="500"
     >
+      <!-- persistent command should have been added as the privacy 
+      policy should be compulsory for the users -->
+
       <template v-slot:activator="{ on, attrs }">
         <v-btn
           color="red lighten-2"
@@ -31,8 +34,11 @@
           <v-btn
             color="primary"
             text
-            @click="dialog = false"
+            @click="dialog = true"
           >
+            <!-- if the value is changed to true then 
+            clicking on i accept wont have any chnages in this form -->
+
             I accept
           </v-btn>
         </v-card-actions>
@@ -45,7 +51,9 @@
   export default {
     data () {
       return {
-        dialog: false,
+        dialog: true,
+        // if the command is changed to true then the privacy 
+        // policy appears directly when the page is reloaded
       }
     },
   }

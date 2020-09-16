@@ -4,7 +4,7 @@
     
     <!--Header -->
     <v-app-bar color="rgb(29, 0, 30)" dark fixed app>
-      <v-toolbar-title>Application</v-toolbar-title>
+      <!-- <v-toolbar-title>Application</v-toolbar-title> -->
        <!-- Component Example -->
       <Zee5Logo/>
     </v-app-bar>
