@@ -1,14 +1,17 @@
 <template>
-  <v-breadcrumbs :items="items">
-    <template v-slot:item="{ item }">
-      <v-breadcrumbs-item
-        :href="item.href"
-        :disabled="item.disabled"
-      >
-        {{ item.text.toUpperCase() }}
-      </v-breadcrumbs-item>
-    </template>
-  </v-breadcrumbs>
+  <div>
+    <!-- <v-breadcrumbs :items="items">
+      <template v-slot:divider>
+        <v-icon>mdi-forward</v-icon>
+      </template>
+    </v-breadcrumbs> -->
+
+    <v-breadcrumbs :items="items">
+      <template v-slot:divider>
+        <v-icon>mdi-chevron-right</v-icon>
+      </template>
+    </v-breadcrumbs>
+  </div>
 </template>
 
 <script>
@@ -28,8 +31,7 @@
         {
           text: 'User Details',
           disabled: false,
-          href: 'breadcrumbs_User_Details',
-          
+          href: 'breadcrumbs_User_details',
         },
       ],
     }),

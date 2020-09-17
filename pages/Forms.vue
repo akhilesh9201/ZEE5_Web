@@ -3,14 +3,14 @@
     <v-dialog v-model="dialog" persistent max-width="600px">
       <!-- persistent command used in this code gave it modal feature  -->
       <template v-slot:activator="{ on, attrs }">
-        <!-- <v-btn
+        <v-btn
           color="primary"
           dark
           v-bind="attrs"
           v-on="on"
         >
           Open Dialog
-        </v-btn> -->
+        </v-btn>
       </template>
       <v-card>
         <v-card-title>
@@ -59,7 +59,7 @@
         <v-card-actions>
           <v-spacer></v-spacer>
           <!-- <v-btn color="blue darken-1" text @click="dialog = false">cancel</v-btn> -->
-          <v-btn color="blue darken-1" text @click="dialog = true">Continue</v-btn>
+          <v-btn color="blue darken-1" text @click="dialog = false">Continue</v-btn>
         </v-card-actions>
       </v-card>
     </v-dialog>
@@ -69,7 +69,7 @@
 <script>
   export default {
     data: () => ({
-      dialog: true,
+      dialog: false,
       // intitially the comment was false but clicked on it , 
       // it changed to true making the form appear directly
     }),
