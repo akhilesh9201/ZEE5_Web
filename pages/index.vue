@@ -11,9 +11,10 @@
         </v-col>
       </v-row>
           <br>
+           <!-- <DialogueBox/> -->
       <FormBasic/>
+     
       
-      <!-- <DialogueBox/> -->
       
       
           <br>

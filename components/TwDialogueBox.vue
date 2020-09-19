@@ -16,13 +16,13 @@
           v-bind="attrs"
           v-on="on"
         >
-          Facebook
+          Twitter
         </v-btn>
       </template>
 
       <v-card >
           <v-card-title class="headline blue">
-          Facebook
+          Twitter
         </v-card-title>
       
               
