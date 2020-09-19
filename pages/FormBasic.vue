@@ -6,7 +6,7 @@
         <v-row justify="center">
           <h1>Stay home or suffer</h1>
         </v-row>
-        <Forms/>
+        <FormBasic/>
       </v-container>
     </v-content>
   </div>

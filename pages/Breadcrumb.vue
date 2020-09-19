@@ -2,7 +2,7 @@
   <div>
     <v-content>
      <Breadcrumb/>
-     <Forms/>
+    
      User Details
     </v-content>
   </div>

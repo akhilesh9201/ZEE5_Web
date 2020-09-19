@@ -1,14 +1,24 @@
 <template>
   <div>
-    <v-content>
-     <Breadcrumb/>
-     User Details
-    </v-content>
+   
+   <Mainpage/>
+   <Breadcrumbs/>
+      <v-content>
+
+      <v-row align="start">
+        <v-col  offset-sm="1">
+      <h3> User Details</h3>
+        </v-col>
+      </v-row>
+          <br>
+      <FormBasic/>
+      
+      <!-- <DialogueBox/> -->
+      
+      
+          <br>
+
+      </v-content>
+
   </div>
-</template>
-
-<script>
-</script>
-
-<style> 
-</style>
+</template>  
