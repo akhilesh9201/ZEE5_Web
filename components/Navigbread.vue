@@ -1,14 +1,10 @@
 <template>
   <div>
-    <!-- <v-breadcrumbs :items="items">
-      <template v-slot:divider>
-        <v-icon>mdi-forward</v-icon>
-      </template>
-    </v-breadcrumbs> -->
 
     <v-breadcrumbs :items="items">
       <template v-slot:divider>
         <v-icon>mdi-chevron-right</v-icon>
+         <!-- mdi chevron right is the icon for angle bracket used  -->
       </template>
     </v-breadcrumbs>
   </div>
@@ -21,6 +17,7 @@
         {
           text: 'Homepage',
           disabled: false,
+           // If the condition is true then the homepage button does not have a hyperlink along with it, making it disabled
           href: 'breadcrumbs_Homepage',
         },
         {

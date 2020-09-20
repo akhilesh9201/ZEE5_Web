@@ -2,12 +2,12 @@
   <div>
     <v-content>
       It Worked! Yes It did Great
-      <v-container>
-        <v-row justify="center">
+        <v-container>
+          <v-row justify="center">
         
-        </v-row>
-        <DialogueBox/>
-      </v-container>
+          </v-row>
+            <FbDialogueBox/>
+         </v-container>
     </v-content>
   </div>
 </template>
