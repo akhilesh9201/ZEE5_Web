@@ -1,31 +1,34 @@
 <template>
   <v-form v-model="valid">
     <v-container>
-
-      <v-card max width="800"
+      
+      <v-card 
+      max width="800"
       class="pa-10">
        <v-row>
+       
+        <!-- the alignment and the distribution of content is controlled by the commands stated above -->
         <v-col
           cols="12"
-          md="4"
+          md="12"
         >
-        <!-- the alignment and the distribution of content is controlled by the commands stated above -->
-
         <v-row justify="center">
          <h2> Enter Email ID or Phone Number </h2> 
         </v-row>
+        
 
           <v-text-field
             required
           ></v-text-field>
-
-        </v-col >
+      
+       
         <!-- Incorporated rounded button in this form iteself  -->
           <v-row justify = "center">
             <div class="text-center">
               <v-btn rectangle color="primary" dark>Proceed</v-btn>
             </div>
           </v-row>
+        </v-col>
         <!-- Rounded button ends here -->
         <v-col
           cols="12"
@@ -35,7 +38,7 @@
 
         <v-col
           cols="12"
-          md="2"
+          md="4"
         >
         <v-spacer></v-spacer> 
         <v-row justify="center">  
@@ -58,7 +61,8 @@
           </v-row>
         </v-col>
         </v-row>
-     </v-card> 
+     </v-card>
+     
     </v-container>
   </v-form>
 </template>

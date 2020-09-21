@@ -1,0 +1,11 @@
+<template>
+  <v-card
+    class="mt-5"
+    color="green"
+    width="200px"
+  >
+    <v-card-text>
+    khiikhiikhiii
+    </v-card-text>
+  </v-card>
+</template>
