@@ -40,7 +40,7 @@
             <GoogleDialogueBox/>
             <!-- The google button component for login is the used here -->
               <v-spacer>
-            <FbDialogueBox/>
+            <Formdialogue/>
             <!-- The facebook button component has been used here
             user can only procees with this button as it has an AlertGreen component -->
               </v-spacer>
