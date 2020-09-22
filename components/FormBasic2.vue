@@ -5,52 +5,38 @@
       <v-card 
       max width="800"
       class="pa-10">
-       <v-row>
+       
        
         <!-- the alignment and the distribution of content is controlled by the commands stated above -->
-        <v-col
-          cols="12"
-          md="12"
-        >
+       
         <v-row justify="center">
          <h2> Enter Email ID or Phone Number </h2> 
         </v-row>
         
 
-          <v-text-field
+          <v-text-field class="mx-md-sm-10"
             required
           ></v-text-field>
-      
+          
        
         <!-- Incorporated rounded button in this form iteself  -->
-          <v-row justify = "center">
-            <div class="text-center">
-              <v-btn rectangle color="primary" dark>Proceed</v-btn>
-            </div>
-          </v-row>
-        </v-col>
-        <!-- Rounded button ends here -->
-        <v-col
-          cols="12"
-          md="4"
-        >
-        </v-col>
-
-        <v-col
-          cols="12"
-          md="4"
-        >
-        <v-spacer></v-spacer> 
-        <v-row justify="center">  
-        <h2> OR </h2> 
+         <RoundedButton/>
         
+        <!-- Rounded button ends here -->
+
+
+       
+        <v-spacer></v-spacer> 
+        <v-row class="mt-10" justify="center">  
+        <h2> OR </h2>
+
         </v-row>
         
-        
-           <v-row   
-            cols="12"
-            md="12"
-           >
+        <v-col class="md-sm-xs-4"
+        cols="12"
+        md-sm-xs="4">
+          <v-row>
+          
             <GoogleDialogueBox/>
             <!-- The google button component for login is the used here -->
               <v-spacer>
@@ -62,7 +48,6 @@
             <!-- The twitter button has been placed here  -->
           </v-row>
         </v-col>
-        </v-row>
      </v-card>
      
     </v-container>

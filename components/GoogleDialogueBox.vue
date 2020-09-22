@@ -28,7 +28,7 @@
          
           Google
           </v-card-title> 
-            <v-col cols="12" sm="12" md="4">
+            <v-col cols="12" sm="12" md="12">
               <v-text-field label="Enter you Email ID or Phone Number*" required></v-text-field>
             </v-col>
              

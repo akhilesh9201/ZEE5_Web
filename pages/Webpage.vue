@@ -4,11 +4,11 @@
     <v-content>
       <v-row align="start">
         <v-col  offset-sm="1">
-          <h3> User Details</h3>
+          <h1> User Details</h1>
         </v-col>
       </v-row>
           <br>        
-            <FormBasic/>
+            <FormBasic2/>
           <br>
             
     </v-content>

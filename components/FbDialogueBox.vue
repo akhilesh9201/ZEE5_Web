@@ -28,7 +28,7 @@
           Facebook
         </v-card-title>
           
-          <v-col cols="12" sm="12" md="4">
+          <v-col cols="12" sm="12" md="12">
             <v-text-field 
               v-model="email"
               :rules="emailRules"
