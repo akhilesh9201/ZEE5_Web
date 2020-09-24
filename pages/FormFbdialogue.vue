@@ -6,7 +6,7 @@
           <v-row justify="center">
          
           </v-row>
-        <Formdialogue/>
+        <FormFbdialogue/>
       </v-container>
     </v-content>
   </div>

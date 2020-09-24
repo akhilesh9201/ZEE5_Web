@@ -37,14 +37,14 @@
         md-sm-xs="4">
           <v-row>
           
-            <GoogleDialogueBox/>
+            <FormGoogledialogue/>
             <!-- The google button component for login is the used here -->
-              <v-spacer>
-            <Formdialogue/>
+              
+            <FormFbdialogue/>
             <!-- The facebook button component has been used here
             user can only procees with this button as it has an AlertGreen component -->
-              </v-spacer>
-            <TwDialogueBox/>
+              
+            <FormTwitterdialogue/>
             <!-- The twitter button has been placed here  -->
           </v-row>
         </v-col>

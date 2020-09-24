@@ -4,12 +4,12 @@
 
     <v-responsive
       class="text-center  rounded-circle d-inline-flex align-center justify-center ma-3"
-      height="70"
-      width="70"
+      height="77"
+      width="77"
     >
-    <v-img
-    src="facebook.png"
-    width="70px"
+    <v-img 
+    src="TTwitter.png"
+    width="75px"
     >
     </v-img>
     </v-responsive>

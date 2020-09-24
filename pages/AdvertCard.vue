@@ -3,10 +3,10 @@
     <v-content>
       It Worked! Yes It did Great
       <v-container>
-        <v-row justify="center">
-          <h1>User Details</h1>
-        </v-row>
-          <FormBasic2/>
+          <v-row justify="center">
+         
+          </v-row>
+        <AdvertCard/>
       </v-container>
     </v-content>
   </div>

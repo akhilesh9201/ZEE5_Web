@@ -58,7 +58,7 @@
             <!-- The facebook button component has been used here
             user can only procees with this button as it has an AlertGreen component -->
               </v-spacer>
-            <TwDialogueBox/>
+            <TWDialogueBox/>
             <!-- The twitter button has been placed here  -->
           </v-row>
         </v-col>

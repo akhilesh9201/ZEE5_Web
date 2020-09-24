@@ -3,10 +3,11 @@
     <v-dialog v-model="dialog" persistent max-width="600px">
       <template v-slot:activator="{ on, attrs }">
         <v-btn class="text-center rounded-circle align-center justify-center ma-3"
-      height="95px"
-      width="95px"
+      height="68px"
+      width="68px"
           color="primary"
           dark
+                
           v-bind="attrs"
           v-on="on"
         >
