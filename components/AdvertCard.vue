@@ -1,16 +1,27 @@
 <template>
+<div>
+  <v-card
+  width="500px"
+  height="575px">
+  <v-container>
   <v-card 
-  height="600px"
-  width="400px"
+  
   >
     <v-img class="mt-ma-5 md-sm-xs-5"
       src="Parindey.jpg"
       >
-    </v-img>  
+    </v-img>
+    <v-row justify="center"
+    >  
     Exclusively On Zee5
-    <v-img
+    </v-row>
+    <v-img class="mt-ma-5 md-sm-xs-5"
     src="2611.png"
     >  
     </v-img> 
+    
   </v-card>
+  </v-container>
+  </v-card>
+</div>
 </template>

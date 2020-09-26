@@ -6,7 +6,7 @@
           <v-row justify="center">
          
           </v-row>
-        <AdvertCard/>
+        <CardPrmPacks/>
       </v-container>
     </v-content>
   </div>

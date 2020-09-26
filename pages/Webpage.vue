@@ -7,9 +7,9 @@
           <h1> User Details</h1>
         </v-col>
       </v-row>
-          <br>        
+                  
             <FormBasic2/>
-          <br>
+    
             
     </v-content>
   </div>

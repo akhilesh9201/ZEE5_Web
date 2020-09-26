@@ -3,13 +3,13 @@
     <v-dialog v-model="dialog" persistent max-width="600px">
       <template v-slot:activator="{ on, attrs }">
         <v-btn class="text-center rounded-circle align-center justify-center ma-3"
-      height="68px"
-      width="68px"
-          color="primary"
-          dark
+        height="68px"
+        width="68px"
+        color="primary"
+        dark
                 
-          v-bind="attrs"
-          v-on="on"
+        v-bind="attrs"
+        v-on="on"
         >
          <Circles/>
         </v-btn>
@@ -41,7 +41,12 @@
         <v-card-actions>
           <v-spacer></v-spacer>
           
-          <v-btn color="blue darken-1" outlined text @click="dialog = false"><h3>Login</h3></v-btn>
+          <v-btn color="blue darken-1" 
+          outlined text 
+          @click="dialog = false">
+          <!-- <h3>Login</h3> -->
+          </v-btn>
+          <AlertGreen/>
         </v-card-actions>
       </v-card>
     </v-dialog>

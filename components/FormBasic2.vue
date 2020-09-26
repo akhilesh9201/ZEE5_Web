@@ -2,8 +2,9 @@
   <v-form v-model="valid">
     <v-container>
       
-      <v-card 
-      max width="800"
+    <AdvertCard/>
+      <v-card
+      max width="600"
       class="pa-10">
        
        
@@ -34,7 +35,7 @@
         
         <v-col class="md-sm-xs-4"
         cols="12"
-        md-sm-xs="4">
+        md-sm-cols="4">
           <v-row>
           
             <FormGoogledialogue/>
