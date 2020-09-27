@@ -1,9 +1,5 @@
 <template>
-  <img
-    class="zee5Logo"
-    alt="Home"
-    src="zee5logo11.png"
-  >
+  <img class="zee5Logo" alt="Home" src="zee5logo11.png" />
 </template>
 
 <style>

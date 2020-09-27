@@ -3,7 +3,6 @@
     <v-content>
       <v-container fluid fill-height>
         <v-layout justify-center align-center>
-
           <blockquote class="blockquote">
             &#8220;First, solve the problem. Then, write the code.&#8221;
             <footer>
@@ -12,7 +11,6 @@
               </small>
             </footer>
           </blockquote>
-
         </v-layout>
       </v-container>
     </v-content>
@@ -22,5 +20,5 @@
 <script>
 </script>
 
-<style> 
+<style>
 </style>

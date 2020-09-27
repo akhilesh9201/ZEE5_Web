@@ -6,7 +6,7 @@
         <v-row justify="center">
           <h1>User Details</h1>
         </v-row>
-          <FormBasic2/>
+        <FormBasic2 />
       </v-container>
     </v-content>
   </div>

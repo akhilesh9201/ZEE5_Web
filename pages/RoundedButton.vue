@@ -3,10 +3,8 @@
     <v-content>
       It Worked! Yes It did Great
       <v-container>
-        <v-row justify="center">
-        
-        </v-row>
-        <RoundedButton/>
+        <v-row justify="center"> </v-row>
+        <RoundedButton />
       </v-container>
     </v-content>
   </div>
