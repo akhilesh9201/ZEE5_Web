@@ -14,6 +14,7 @@ export default {
   data: () => ({
     items: [
       {
+        
         text: "Homepage",
         disabled: false,
         // If the condition is true then the homepage button does not have a hyperlink along with it, making it disabled

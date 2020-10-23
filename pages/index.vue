@@ -3,12 +3,13 @@
     <Navigbread />
     <v-content>
       <v-row align="start">
-        <v-col offset="1">
-          <h1>User Details</h1>
+        <v-col offset-sm="1">
+          <h3>User Details</h3>
         </v-col>
       </v-row>
-
-      <FormBasic2 />
+      <br />
+      <FormBasic2/>
+      <br />
     </v-content>
   </div>
 </template>  

@@ -24,12 +24,14 @@
           <v-container>
             <v-row>
               <v-col cols="12">
-                <v-text-field label="Email*" required></v-text-field>
+                  <v-text-field label="Email*" outlined required></v-text-field>
+      
               </v-col>
               <v-col cols="12">
                 <v-text-field
                   label="Password*"
                   type="password"
+                  outlined
                   required
                 ></v-text-field>
               </v-col>
@@ -40,7 +42,7 @@
           <v-spacer></v-spacer>
 
           <v-btn>
-            <AlertGreen />
+            <AlertGreen/>
             <!-- <h3>Login</h3> -->
           </v-btn>
         </v-card-actions>
