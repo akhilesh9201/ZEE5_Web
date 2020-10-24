@@ -2,7 +2,7 @@
   <div class="text-center">
     <v-btn
       dark
-      color="blue dark"
+      color="blue"
       @click="snackbar = true"
     >
      Login
@@ -12,18 +12,8 @@
       v-model="snackbar"
       :timeout="timeout"
     >
-      {{ text }}
+     Account Linked Successfully
 
-      <template v-slot:action="{ attrs }">
-        <v-btn
-          color="blue"
-          text
-          v-bind="attrs"
-          @click="snackbar = true"
-        >
-          Close
-        </v-btn>
-      </template>
-    </v-snackbar>
+       </v-snackbar>
   </div>
 </template>
