@@ -14,11 +14,12 @@
       <nuxt /> 
     </v-content>
     
-    <!-- Footer -->
+    <!-- Footer
     <v-footer color="rgb(29, 0, 30)" app>
       <span class="white--text">&copy; {{ new Date().getFullYear() }}</span>
-    </v-footer>
+    </v-footer> -->
 
+  <Footer/>
   </v-app>
 </template>
 

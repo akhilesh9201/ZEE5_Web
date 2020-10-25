@@ -2,11 +2,10 @@
   <v-form v-model="valid">
     <v-container>
       <v-row>
-        <v-col cols="12" sm="4">
+        <v-col cols="12" sm="4" md="4" lg="4">
           <AdvertCard />
         </v-col>
-        <!-- class="pa-py-8 pa-md-2 pl-sm-2 ma-sm-4 mx-lg-2 mx-sm-n5 ma-cols-2">
-       -->
+
         <v-col cols="12" sm="5">
           <v-card class="pa-8">
             <!-- the alignment and the distribution of content is controlled by the commands stated above -->
@@ -26,23 +25,33 @@
               <h2>OR</h2>
             </v-row>
 
-            <v-col class="md-sm-xs-4" cols="12">
-              <v-row>
-                <FormGoogledialogue />
+            <!-- <v-col class="md-sm-xs-4" cols="12"> -->
+
+            <v-row>
+              <v-col sm="3" md="4" cols="4" class="mr-sm-4 hidden-md-and-up">
+                <Dialogbox2 />
                 <!-- The google button component for login is the used here -->
-                <v-spacer></v-spacer>
-                <FormFbdialogue />
+              </v-col>
+
+              <v-col sm="3" md="4" cols="4" class="hidden-sm-and-down">
+                <Dialogbox2 />
+                <!-- The google button component for login is the used here -->
+              </v-col>
+
+              <v-col sm="4" md="4" cols="4">
+                <Dialogbox />
                 <!-- The facebook button component has been used here
             user can only procees with this button as it has an AlertGreen component -->
-                <v-spacer></v-spacer>
-                <FormTwitterdialogue />
+              </v-col>
+              <v-col sm="4" md="4" cols="4">
+                <Dialogbox3 />
                 <!-- The twitter button has been placed here  -->
-              </v-row>
-            </v-col>
+              </v-col>
+            </v-row>
           </v-card>
         </v-col>
 
-        <v-col cols="12" sm="3">
+        <v-col cols="12" md="3" lg="3" sm="3">
           <CardPrmPacks />
         </v-col>
       </v-row>

@@ -14,20 +14,19 @@ export default {
   data: () => ({
     items: [
       {
-        
         text: "Homepage",
-        disabled: false,
+        disabled: true,
         // If the condition is true then the homepage button does not have a hyperlink along with it, making it disabled
         href: "breadcrumbs_Homepage",
       },
       {
         text: "Packages",
-        disabled: false,
+        disabled: true,
         href: "breadcrumbs_Packages",
       },
       {
         text: "User Details",
-        disabled: false,
+        disabled: true,
         href: "breadcrumbs_User_details",
       },
     ],

@@ -3,7 +3,7 @@
     <v-content>
       <v-container>
         <v-row justify="center"> </v-row>
-        <AdvertCard />
+        <Dialogbox/>
       </v-container>
     </v-content>
   </div>
