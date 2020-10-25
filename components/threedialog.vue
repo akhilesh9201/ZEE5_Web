@@ -22,10 +22,8 @@ v-for="dialog in items"
       <v-card
       light
       >
-              <v-card-title class="headline blue">
-          <!-- <img class="mr-4 md-sm-xs-5" src="facebook.jpg" height="25" px /> -->
-          Facebook
-        </v-card-title>
+
+        
         
         <v-row class="pt-md-6 pl-md-8 ma-md-2">
        <h3 class="pt-md-6"
@@ -36,7 +34,7 @@ v-for="dialog in items"
         </v-col>  
       </v-row>
 
-      <v-row class="pl-md-6 ma-md-2">
+      <v-row class="pl-md-6 ma-md-2 pl-sm-6 ma-sm-2">
         <h3 class="pt-md-6"> Password </h3>
           <v-col cols="10">
             <v-text-field  outlined required></v-text-field> 
@@ -52,6 +50,7 @@ v-for="dialog in items"
       
         </v-card-actions>
       </v-card>
+
 </v-dialog>
   </v-row>
 </template>
@@ -63,11 +62,12 @@ export default {
       btn: null
       ,
       items: [
-      {button: ''},
-     
+      {btn: '',
+      src: 'https://cdn.vuetifyjs.com/images/cards/house.jpg', flex: 12},
+
      {btn: '' },
 
-      {btn: '' },
+      {btn: ''},
       
       ],
     }

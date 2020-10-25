@@ -14,6 +14,7 @@
           v-bind="attrs"
           v-on="on"
         >
+        
         </v-btn>
       </template>
 
@@ -22,8 +23,7 @@
       >
         
         <v-row class="pt-md-6 pl-md-8 ma-md-2">
-       <h3 class="pt-md-6"
-       color="grey"> Email ID</h3>
+       <h3 class="pt-md-6"> Email ID</h3>
         <v-col cols="10">
           <v-text-field  outlined required></v-text-field> 
         </v-col>  

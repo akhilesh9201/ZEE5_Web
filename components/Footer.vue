@@ -111,10 +111,13 @@
      <v-img src="GooglePlay.jpg"> </v-img>
      <br>
      <v-row>
-       <v-spacer></v-spacer>
-        <v-icon large>mdi-youtube </v-icon>
+        <v-icon medium>mdi-youtube </v-icon>
         <v-spacer></v-spacer>
-         <v-icon large>mdi-instagram </v-icon>
+         <v-icon medium>mdi-instagram </v-icon>
+         <v-spacer></v-spacer>
+          <v-icon medium>mdi-facebook </v-icon>
+        <v-spacer></v-spacer>
+         <v-icon medium>mdi-twitter </v-icon>
          <v-spacer></v-spacer>
         </v-row>
       </v-col>
@@ -137,10 +140,7 @@
        <v-img src="AppStore.jpg"> </v-img>
       
       <v-row>
-        <v-icon large>mdi-facebook </v-icon>
-        <v-spacer></v-spacer>
-         <v-icon large>mdi-twitter </v-icon>
-         <v-spacer></v-spacer>
+       
       </v-row>
       </v-col>
 
