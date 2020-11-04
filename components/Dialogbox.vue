@@ -35,6 +35,7 @@
         <v-col cols="12">
           <h3 class="pt-md-6">Password</h3>
 
+          <!-- Text fields have been created for the user to enter the data -->
           <v-text-field
             :rules="rules"
             hide-details="auto"

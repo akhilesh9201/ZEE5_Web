@@ -7,6 +7,8 @@
       <!-- <v-toolbar-title>Application</v-toolbar-title> -->
        <!-- Component Example -->
       <Zee5Logo/>
+      <Searchbar/>
+      <v-app-bar-nav-icon></v-app-bar-nav-icon>
     </v-app-bar>
 
     <!-- Body -->

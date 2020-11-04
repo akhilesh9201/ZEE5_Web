@@ -1,12 +1,12 @@
 <template>
   <div>
     <v-content>
-      It Worked! Yes It did Great
+      
       <v-container>
         <v-row justify="center">
           <h1>User Details</h1>
         </v-row>
-        <FormBasic2 />
+        <Searchbar />
       </v-container>
     </v-content>
   </div>
